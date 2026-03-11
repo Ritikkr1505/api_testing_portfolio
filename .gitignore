@@ -1,0 +1,20 @@
+# Newman reports (temporary)
+newman/
+
+# Environment files with sensitive data (optional - keep if using placeholder values)
+# Postman-Collection/*environment*.json
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log

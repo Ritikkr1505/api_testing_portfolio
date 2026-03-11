@@ -1,0 +1,9 @@
+| TC ID | API               | Method | Test Description   | Expected Result      |
+| ----- | ----------------- | ------ | ------------------ | -------------------- |
+| TC01  | /api/users?page=2 | GET    | Verify list users  | Status 200           |
+| TC02  | /api/users/2      | GET    | Verify single user | Status 200           |
+| TC03  | /api/users        | POST   | Create user        | User created         |
+| TC04  | /api/users/2      | PUT    | Update user        | Updated successfully |
+| TC05  | /api/users/2      | DELETE | Delete user        | Status 204           |
+| TC06  | /api/login        | POST   | Valid login        | Token returned       |
+| TC07  | /api/login        | POST   | Invalid login      | Error returned       |

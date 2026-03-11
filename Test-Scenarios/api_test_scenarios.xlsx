@@ -1,0 +1,9 @@
+| Scenario ID | Scenario                                   |
+| ----------- | ------------------------------------------ |
+| TS01        | Verify users list API returns correct data |
+| TS02        | Verify single user API                     |
+| TS03        | Verify create user API                     |
+| TS04        | Verify update user API                     |
+| TS05        | Verify delete user API                     |
+| TS06        | Verify login API with valid credentials    |
+| TS07        | Verify login API with invalid credentials  |
